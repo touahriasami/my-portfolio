@@ -4,6 +4,7 @@ import data from "@/data/projects";
 import Heading from "./Heading";
 import ProjectInfo from "./ProjectInfo";
 import Model from "./Model";
+import { useState } from "react";
 
 const Projects = () => {
   const [state, setState] = useState(false);
