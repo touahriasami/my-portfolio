@@ -35,10 +35,10 @@ const Testimonials = () => {
 
       <div className="relative">
         {data.length != count ? (
-          <div className="absolute w-full h-full bottom-0 bg-gradient-to-t from-[50%] text-white dark:from-[#121212]/90 to-transparent flex justify-center items-end">
+          <div className="absolute w-full h-full bottom-0 bg-gradient-to-t from-white/100   dark:from-[#121212]/80 to-transparent flex justify-center items-end z-[999]">
             <span
               onClick={() => setCount(9)}
-              className="bg-indigo-500 dark:text-zinc-900 dark:bg-white capitalize font-semibold px-4 py-2 cursor-pointer rounded-lg mb-[-15px]"
+              className="bg-indigo-500 dark:text-zinc-900 dark:bg-white text-white capitalize font-semibold px-4 py-2 cursor-pointer rounded-lg mb-[-15px]"
             >
               show more
             </span>
