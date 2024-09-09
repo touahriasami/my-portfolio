@@ -9,7 +9,7 @@ const Contacts = () => {
       <Heading>Contacts</Heading>
       <div className="flex flex-wrap items-center gap-4 mt-4">
         {data.map((e) => (
-          <ContactInfo key={e.id} link={e.link} title={e.label} />
+          <ContactInfo key={e.id} name={e.name} link={e.link} title={e.label} />
         ))}
       </div>
     </section>

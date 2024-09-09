@@ -1,21 +1,21 @@
 const data = [
-  {
-    id: 1,
-    name: "github",
-    label: "github",
-    link: "http://github.com/username",
-  },
-  {
-    id: 2,
-    name: "linkedin",
-    label: "linkedin",
-    link: "http://linkedin.com/username",
-  },
+  // {
+  //   id: 1,
+  //   name: "github",
+  //   label: "github",
+  //   link: "http://github.com/username",
+  // },
+  // {
+  //   id: 2,
+  //   name: "linkedin",
+  //   label: "linkedin",
+  //   link: "http://linkedin.com/username",
+  // },
   {
     id: 3,
     name: "whatsapp",
     label: "whatsapp",
-    link: "http://whatsapp.com/username",
+    link: "https://wa.me/+213782094508",
   },
   {
     id: 4,

@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import { TfiWorld } from "react-icons/tfi";
 
-const ContactInfo = ({ link, title }) => {
+const ContactInfo = ({ link, title, name }) => {
   return (
     <Link
       href={link}
@@ -21,7 +21,9 @@ const ContactInfo = ({ link, title }) => {
       {title == "download CV" && <IoMdDownload />}
       {title == "demo" && <TfiWorld />}
 
-      <span className="capitalize">{title}</span>
+      {title == "whatsapp" ? <span className="capitalize">{name}</span> : <span className="capitalize">{title}</span>}
+
+
     </Link>
   );
 };
