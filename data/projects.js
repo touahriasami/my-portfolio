@@ -11,7 +11,43 @@ const data = [
     demo: "https://arwka.com/",
   },
   {
+    id: 2,
+    title: "GROdesto",
+    image: "/projects/grodesto.png",
+    description: '',
+    skills: [
+      { id: 1, name: "laravel", image: "/skills/laravel.png" },
+      { id: 2, name: "tailwindcss", image: "/skills/tailwind.png" },
+    ],
+    // source_code: "http://github.com/link",
+    demo: "https://grodesto.com",
+  },
+  {
     id: 3,
+    title: "Task management",
+    image: "/projects/task.png",
+    description: '',
+    skills: [
+      { id: 1, name: "laravel", image: "/skills/laravel.png" },
+      { id: 18, name: "Angular", image: "/skills/angularjs.png" },
+    ],
+    // source_code: "http://github.com/link",
+    demo: "http://tasks.grodesto.com",
+  },
+  {
+    id: 4,
+    title: "Freelance",
+    image: "/projects/mostaql.png",
+    description: '',
+    skills: [
+      { id: 1, name: "laravel", image: "/skills/laravel.png" },
+      { id: 2, name: "tailwindcss", image: "/skills/tailwind.png" },
+    ],
+    // source_code: "http://github.com/link",
+    demo: "https://mostaql.com/u/touaria_sami/reviews",
+  },
+  {
+    id: 5,
     title: "Build a LinkedIn clone with React.js, and Firebase",
     image: "/projects/linkedin.png",
     description: '',
@@ -23,7 +59,7 @@ const data = [
     demo: "https://linkedin-samidevs.web.app",
   },
   {
-    id: 4,
+    id: 6,
     title: "Build Gmail clone using React.js and Firebase",
     image: "/projects/gmail.png",
     description: '',
