@@ -36,12 +36,14 @@ const data = [
   },
   {
     id: 4,
-    title: "Freelance",
+    title: "Freelance ( 10 projects, all with 5★ )",
     image: "/projects/mostaql.png",
     description: '',
     skills: [
-      { id: 1, name: "laravel", image: "/skills/laravel.png" },
-      { id: 2, name: "tailwindcss", image: "/skills/tailwind.png" },
+      { id: 1, name: "Laravel", image: "/skills/laravel.png" },
+      { id: 4, name: "Bootstrap", image: "/skills/bootstrap.png" },
+      { id: 7, name: "Tailwind CSS", image: "/skills/tailwind.png" },
+      { id: 25, name: "MySQL", image: "/skills/mysql.png" },
     ],
     // source_code: "http://github.com/link",
     demo: "https://mostaql.com/u/touaria_sami/reviews",
