@@ -9,6 +9,7 @@ const data = [
   { id: 12, name: "redux", image: "/skills/redux.png" },
   { id: 13, name: "Next JS", image: "/skills/next-js.png" },
   { id: 18, name: "Angular", image: "/skills/angularjs.png" },
+  { id: 19, name: "Spring Boot", image: "/skills/spring.png" },
   { id: 16, name: "Vue JS", image: "/skills/vuejs.png" },
   { id: 20, name: "Nest JS", image: "/skills/nestjs.png" },
   { id: 21, name: "node", image: "/skills/node-js.png" },
