@@ -10,10 +10,10 @@ import HeaderInfo from "./HeaderInfo";
 const Header = () => {
   return (
     <div className="flex flex-wrap flex-col md:flex-row items-center gap-x-10 gap-y-10 slide-top duration-300">
-      <div className=" w-[200px] md:w-[150px] h-[200px] md:h-[150px]   relative rounded-full overflow-hidden mt-8 md:mt-0">
+      <div className=" w-[200px] md:w-[200px] h-[200px] md:h-[200px]   relative rounded-full overflow-hidden mt-8 md:mt-0">
         <Image
           src={data.image}
-          className="w-full h-full object-cover hover:scale-125 hover:rotate-12 transition-all duration-500"
+          className="w-full h-full object-cover hover:scale-125 transition-all duration-300"
           fill
           alt="personnel image"
         />
